@@ -1,0 +1,37 @@
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  if(self->dev->gui_attached && g && piece->pipe->type == DT_DEV_PIXELPIPE_PREVIEW && (data->flag & ACQUIRE))
+  dt_iop_colormapping_global_data_t *gd = (dt_iop_colormapping_global_data_t *)self->data;
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  if(self->dev->gui_attached && g && piece->pipe->type == DT_DEV_PIXELPIPE_PREVIEW && (data->flag & ACQUIRE))
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  if(self->dt->gui->reset) return;
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  if(self->dt->gui->reset) return;
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  self->commit_params(self, self->default_params, pipe, piece);
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  dt_control_queue_redraw_widget(self->widget);
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  self->gui_data = malloc(sizeof(dt_iop_colormapping_gui_data_t));
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  dt_iop_colormapping_params_t *p = (dt_iop_colormapping_params_t *)self->params;
+  self->widget = GTK_WIDGET(gtk_box_new(GTK_ORIENTATION_VERTICAL, DT_BAUHAUS_SPACE));
+  gtk_box_pack_start(GTK_BOX(self->widget), GTK_WIDGET(hbox1), TRUE, TRUE, 0);
+  gtk_box_pack_start(GTK_BOX(self->widget), g->source_area, TRUE, TRUE, 0);
+  gtk_box_pack_start(GTK_BOX(self->widget), GTK_WIDGET(hbox2), TRUE, TRUE, 0);
+  gtk_box_pack_start(GTK_BOX(self->widget), g->target_area, TRUE, TRUE, 0);
+  gtk_box_pack_start(GTK_BOX(self->widget), GTK_WIDGET(box), TRUE, TRUE, 0);
+  gtk_box_pack_start(GTK_BOX(self->widget), GTK_WIDGET(g->clusters), TRUE, TRUE, 0);
+  gtk_box_pack_start(GTK_BOX(self->widget), GTK_WIDGET(g->dominance), TRUE, TRUE, 0);
+  gtk_box_pack_start(GTK_BOX(self->widget), GTK_WIDGET(g->equalization), TRUE, TRUE, 0);
+  dt_iop_colormapping_gui_data_t *g = (dt_iop_colormapping_gui_data_t *)self->gui_data;
+  free(self->gui_data);
+  self->gui_data = NULL;
