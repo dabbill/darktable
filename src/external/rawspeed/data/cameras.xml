@@ -372,7 +372,7 @@
 		<BlackAreas>
  			<Vertical x="0" width="264"/>
  			<Horizontal y="0" height="34"/>
-			</BlackAreas>
+		</BlackAreas>
 	</Camera>
 	<Camera make="Canon" model="Canon EOS 700D">
 		<ID make="Canon" model="EOS 700D">Canon EOS 700D</ID>
