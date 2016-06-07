@@ -374,6 +374,24 @@
 			<Horizontal y="0" height="34"/>
 		</BlackAreas>
 	</Camera>
+	<Camera make="Canon" model="Canon EOS 80D" mode="sRaw1">
+		<ID make="Canon" model="EOS 80D">Canon EOS 80D</ID>
+		<Crop x="0" y="0" width="0" height="0"/>
+		<Sensor black="0" white="11892"/>
+		<Hints>
+			<Hint name="sraw_new" value=""/>
+			<Hint name="invert_sraw_wb" value=""/>
+		</Hints>
+	</Camera>
+	<Camera make="Canon" model="Canon EOS 80D" mode="sRaw2">
+		<ID make="Canon" model="EOS 80D">Canon EOS 80D</ID>
+		<Crop x="0" y="0" width="0" height="0"/>
+		<Sensor black="0" white="11892"/>
+		<Hints>
+			<Hint name="sraw_new" value=""/>
+			<Hint name="invert_sraw_wb" value=""/>
+		</Hints>
+	</Camera>
 	<Camera make="Canon" model="Canon EOS 700D">
 		<ID make="Canon" model="EOS 700D">Canon EOS 700D</ID>
 		<CFA width="2" height="2">
